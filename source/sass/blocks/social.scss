@@ -39,3 +39,9 @@
     height: 13px;
   }
 }
+
+@media (max-width: $mobile-width) {
+  .social__item:first-child {
+    margin-left: 0;
+  }
+}

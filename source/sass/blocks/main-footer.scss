@@ -9,6 +9,25 @@
 }
 
 .main-footer__social {
-  width: 200px;
+  width: 150px;
   margin-left: auto;
+}
+
+@media (max-width: $mobile-width) {
+  .main-footer__wrapper {
+    flex-direction: column;
+  }
+
+  .main-footer__logo {
+    margin-bottom: 20px;
+  }
+
+  .main-footer__nav {
+    margin-bottom: 30px;
+  }
+
+  .main-footer__social {
+    margin-right: auto;
+    margin-left: 0;
+  }
 }

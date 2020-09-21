@@ -1,20 +1,25 @@
 @media (max-width: $mobile-width) {
   .nav-mobile {
     position: absolute;
-    top: 0;
-    padding: 0 15px;
+    top: -10px;
     padding-top: 70px;
     padding-bottom: 50px;
     background-color: $color-white;
   }
 
   .nav-mobile--nojs {
-    padding-top: 70px;
+    position: static;
+    margin-left: -30px;
+    padding-top: 35px;
     padding-bottom: 50px;
   }
 
-  .nav-mobile__item {
+  .nav-mobile__list {
     margin-left: 15px;
+  }
+
+  .nav-mobile__item {
+    margin-left: 0;
   }
 
   .nav-mobile__link {
