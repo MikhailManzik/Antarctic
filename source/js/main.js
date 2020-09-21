@@ -18,10 +18,12 @@ var buttonMenu = document.querySelector('.toggle');
 var siteNavigation = document.querySelector('.main-nav');
 var logo = document.querySelector('.logo__img');
 var navigationMobile = document.querySelector('.nav-mobile');
+var headBlock = document.querySelector('.head');
 
 buttonMenu.classList.remove('toggle--hidden');
 logo.classList.remove('logo__img--fill-color');
 navigationMobile.classList.remove('nav-mobile--nojs');
+headBlock.classList.remove('head--nojs');
 
 buttonMenu.addEventListener('click', function () {
   if (buttonMenu.classList.contains('toggle--icon-opened')) {

@@ -89,14 +89,13 @@
   }
 
   .head-bottom__promo {
-    margin-right: 30px;
+    margin-bottom: 40px;
     padding-right: 0;
   }
 
   .head-bottom__title {
     width: 205px;
-    margin-bottom: 30px;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 140%;
   }
 
@@ -107,9 +106,17 @@
 
 
 @media (max-width: $mobile-width) {
+  .head {
+    margin-top: -54px;
+  }
+
+  .head--nojs {
+    margin-top: 0;
+  }
+
   .head-top {
     min-height: 500px;
-    margin-bottom: 100px;
+    margin-bottom: 65px;
     background-image: url("../img/bg-head-mobile@1x.jpg");
     background-size: cover;
 
@@ -127,5 +134,19 @@
   .head-top__title {
     font-size: 35px;
     line-height: 120%;
+  }
+
+  .head-bottom__wrapper {
+    flex-direction: column;
+  }
+
+  .head-bottom__promo {
+    width: 100%;
+  }
+
+  .head-bottom__img {
+    width: 100%;
+    margin-bottom: 65px;
+    text-align: center;
   }
 }
