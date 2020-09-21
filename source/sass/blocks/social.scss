@@ -1,0 +1,33 @@
+.social__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+}
+
+.social__item {
+  margin-left: 33px;
+}
+
+.social__link {
+  display: block;
+  padding: 10px 0;
+}
+
+@media (max-width: $tablet-width) {
+  .social__link--facebook {
+    width: 9px;
+    height: 16px;
+  }
+
+  .social__link--instagram {
+    width: 16px;
+    height: 16px;
+  }
+
+  .social__link--twitter {
+    width: 16px;
+    height: 13px;
+  }
+}
