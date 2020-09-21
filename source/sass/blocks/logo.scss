@@ -1,6 +1,25 @@
+.logo {
+  padding: 10px 0;
+}
+
+.logo__img {
+  fill: #ffffff;
+}
+
 @media (max-width: $tablet-width) {
   .logo__img {
     width: 38px;
     height: 20px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .logo {
+    z-index: 1;
+    margin-right: auto;
+  }
+
+  .logo__img--fill-color {
+    fill: $color-black;
   }
 }

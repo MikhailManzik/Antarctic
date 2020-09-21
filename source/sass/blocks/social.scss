@@ -16,17 +16,25 @@
 }
 
 @media (max-width: $tablet-width) {
-  .social__link--facebook {
+  .social {
+    width: 110px;
+  }
+
+  .social__item {
+    margin-left: 23px;
+  }
+
+  .social__icon--facebook {
     width: 9px;
     height: 16px;
   }
 
-  .social__link--instagram {
+  .social__icon--instagram {
     width: 16px;
     height: 16px;
   }
 
-  .social__link--twitter {
+  .social__icon--twitter {
     width: 16px;
     height: 13px;
   }
