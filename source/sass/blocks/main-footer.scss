@@ -1,11 +1,13 @@
 .main-footer {
-  padding: 50px 0;
+  margin-top: auto;
   background-color: $color-dark-blue;
 }
 
 .main-footer__wrapper {
   display: flex;
   align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .main-footer__social {

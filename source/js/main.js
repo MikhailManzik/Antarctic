@@ -18,21 +18,19 @@ var buttonMenu = document.querySelector('.toggle');
 var siteNavigation = document.querySelector('.main-nav');
 var logo = document.querySelector('.logo__img');
 var navigationMobile = document.querySelector('.nav-mobile');
-var headBlock = document.querySelector('.head');
 
 buttonMenu.classList.remove('toggle--hidden');
 logo.classList.remove('logo__img--fill-color');
-navigationMobile.classList.remove('nav-mobile--nojs');
-headBlock.classList.remove('head--nojs');
+navigationMobile.classList.add('nav-mobile--js');
 
 buttonMenu.addEventListener('click', function () {
-  if (buttonMenu.classList.contains('toggle--icon-opened')) {
-    buttonMenu.classList.remove('toggle--icon-opened');
-    buttonMenu.classList.add('toggle--icon-closed');
+  if (buttonMenu.classList.contains('toggle--opened')) {
+    buttonMenu.classList.remove('toggle--opened');
+    buttonMenu.classList.add('toggle--closed');
     logo.classList.remove('logo__img--fill-color');
   } else {
-    buttonMenu.classList.remove('toggle--icon-closed');
-    buttonMenu.classList.add('toggle--icon-opened');
+    buttonMenu.classList.remove('toggle--closed');
+    buttonMenu.classList.add('toggle--opened');
     logo.classList.add('logo__img--fill-color');
   }
 });
