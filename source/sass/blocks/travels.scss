@@ -1,0 +1,40 @@
+.travels {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.travels__title {
+  margin: 0;
+  font-family: $main-font;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 150%;
+  text-align: center;
+}
+
+.travels__list {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.travels__item {
+  position: relative;
+  width: 20%;
+  flex-grow: 1;
+  margin-right: 30px;
+
+  &:nth-child(1n) {
+    margin-left: 15px;
+  }
+
+  &:nth-child(4n) {
+    margin-right: 15px;
+  }
+}
+
+// .travels__photo {
+//   position: absolute;
+// }
