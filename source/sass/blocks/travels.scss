@@ -20,21 +20,8 @@
   list-style: none;
 }
 
-.travels__item {
+.travels__card {
   position: relative;
   width: 20%;
-  flex-grow: 1;
-  margin-right: 30px;
-
-  &:nth-child(1n) {
-    margin-left: 15px;
-  }
-
-  &:nth-child(4n) {
-    margin-right: 15px;
-  }
+  margin: 30px 15px;
 }
-
-// .travels__photo {
-//   position: absolute;
-// }
