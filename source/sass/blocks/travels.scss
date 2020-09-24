@@ -40,3 +40,43 @@
   bottom: 30px;
 }
 
+@media (max-width: $desktop-width-1280) {
+  .travels__card {
+    width: calc((100% - 90px) / 3);
+  }
+}
+
+@media (max-width: $desktop-width-1080) {
+  .travels__card {
+    width: calc((100% - 60px) / 2);
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .travels {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+
+  .travels__title {
+    font-size: 26px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .travels {
+    margin-top: 65px;
+    margin-bottom: 65px;
+  }
+
+  .travels__title {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+
+  .travels__card {
+    width: 100%;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
