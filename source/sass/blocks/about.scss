@@ -1,0 +1,49 @@
+.about__question {
+  margin: 0;
+  margin-bottom: 45px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.about__adress {
+  position: relative;
+  margin: 0;
+  margin-bottom: 33px;
+  padding-left: 30px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 22px;
+    background-image: url("../img/icon-pin.svg");
+  }
+}
+
+.about__phone {
+  position: relative;
+  margin: 0;
+  padding-left: 30px;
+  text-decoration: none;
+  color: $color-black;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background-image: url("../img/icon-phone.svg");
+  }
+}
+
+@media (max-width: $tablet-width) {
+  .about__question {
+    margin-bottom: 40px;
+  }
+
+  .about__adress {
+    padding-right: 31px;
+  }
+}

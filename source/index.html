@@ -377,11 +377,11 @@
       <div class="order__wrapper container">
         <div class="order__text">
           <h2 class="order__title">Раннее бронирование</h2>
-          <p class="order__desc">Забронируйте тур за 3-6 месяцев до даты выезда и сэкономьте до 50%</p>
+          <p class="order__desc">Забронируйте тур за&nbsp;3-6 месяцев до&nbsp;даты выезда и&nbsp;сэкономьте до&nbsp;50%</p>
         </div>
         <div class="order__form form">
           <form class="form__block" action="https://echo.htmlacademy.ru" method="POST">
-            <p>Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+            <p>Оставьте заявку и&nbsp;мы&nbsp;свяжемся с&nbsp;вами в&nbsp;ближайшее время</p>
             <div class="form__inputs">
               <label for="">
               <input type="text" placeholder="Валерия">
@@ -394,14 +394,34 @@
               </label>
               <label for="">
             </div>
-            <div class="order__personal-data">
-              <label for="">
-              <input type="checkbox">
-                Я согласен на обработку моих персональных данных
+            <div class="order__checkbox checkbox">
+              <label for="checkbox-persoanl-data">
+              <input type="checkbox" id="checkbox-persoanl-data" checked>
+                <span>Я согласен на обработку моих персональных данных</span>
               </label>
             </div>
             <button class="order__button button" type="submit">Оставить заявку</button>
           </form>
+        </div>
+      </div>
+    </section>
+    <section class="contacts">
+      <div class="contacts__wrapper container">
+        <div class="contacts__map map">
+          <picture>
+            <source type="image/webp" media="(max-width:768px)" srcset="img/map-mobile@1x.webp 1x, img/map-mobile@2x.webp 2x">
+            <source type="image/webp" media="(max-width:1024px)" srcset="img/map-tablet@1x.webp 1x, img/map-tablet@2x.webp 2x">
+            <source type="image/webp" srcset="img/map-desktop@1x.webp 1x, img/map-desktop@2x.webp 2x">
+
+            <source media="(max-width:768px)" srcset="img/map-mobile@1x.png 1x, img/map-mobile@2x.png 2x">
+            <source media="(max-width:1024px)" srcset="img/map-tablet@1x.png 1x, img/map-tablet@2x.png 2x">
+            <img class="map__img" src="img/map-desktop@1x.png" srcset="img/map-desktop@2x.png 2x" width="560" height="306" alt="г. Санкт Петербург, ул. Большая Конюшенная, 19/8.">
+          </picture>
+        </div>
+        <div class="contacts__about about">
+          <p class="about__question">У&nbsp;вас ещё остались вопросы или сомнения? Приезжайте к&nbsp;нам в&nbsp;офис и&nbsp;мы&nbsp;вам все расскажем.</p>
+          <p class="about__adress">г. Санкт Петербург, ул. Большая Конюшенная, 19/8</p>
+          <a class="about__phone" href="tel:88002000000">8-800-200-00-00</a>
         </div>
       </div>
     </section>

@@ -27,6 +27,30 @@
   font-family: $main-font;
 
   &::placeholder {
+    font-size: 14px;
     color: $color-dark-blue;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .form {
+    width: 100%;
+  }
+
+  .form__block {
+    margin: 30px;
+  }
+
+  .form__block p {
+    text-align: center;
+    line-height: 140%;
+
+  }
+
+  .form__inputs input {
+
+    &::placeholder {
+      font-size: 14px;
+    }
   }
 }
