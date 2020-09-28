@@ -1,6 +1,47 @@
+.checkbox {
+  margin-bottom: 30px;
+}
+
+.checkbox input[type="checkbox"] {
+  position: absolute;
+  width: 0;
+  height: 0;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 .checkbox span {
+  position: relative;
+  padding-left: 24px;
   color: $color-white;
   font-family: $main-font;
   font-size: 10px;
   cursor: pointer;
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 18px;
+    background-color: $color-white;
+  }
+}
+
+.checkbox input:checked + span {
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 3px;
+    width: 12px;
+    height: 8px;
+    background-image: url("../img/icon-check-mark.svg");
+    background-repeat: no-repeat;
+  }
 }

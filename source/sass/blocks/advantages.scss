@@ -12,7 +12,7 @@
 
 .advantages__wrapper {
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 80px;
 }
 
 .advantages__title {
@@ -37,9 +37,9 @@
 
 .advantages__item {
   position: relative;
-  flex-grow: 1;
-  width: 30%;
+  width: calc((100% - 80px) / 3);
   margin-right: 40px;
+  margin-bottom: 40px;
   background-color: $color-white;
 
   &:nth-child(3n) {
