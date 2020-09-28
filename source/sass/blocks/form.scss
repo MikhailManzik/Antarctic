@@ -1,0 +1,32 @@
+.form {
+  width: 403px;
+  background-color: $color-dark-blue;
+}
+
+.form__block {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.form__block p {
+  margin-bottom: 35px;
+  font-family: $main-font;
+  font-size: 18px;
+  line-height: 150%;
+  font-weight: 500;
+  color: $color-white;
+}
+
+.form__inputs input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid transparent;
+  font-family: $main-font;
+
+  &::placeholder {
+    color: $color-dark-blue;
+  }
+}
