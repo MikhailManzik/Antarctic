@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding-top: 120px;
-  padding-bottom: 120px;
+  padding-bottom: 113px;
   font-family: $main-font;
   line-height: 150%;
 }
@@ -15,7 +15,7 @@
 
 .promo__title {
   margin: 0;
-  padding-bottom: 40px;
+  padding-bottom: 34px;
   font-size: 28px;
   font-weight: 600;
 }
@@ -27,6 +27,7 @@
 .promo__photo {
   flex-shrink: 0;
   width: 50%;
+  text-align: right;
 }
 
 .promo__img {

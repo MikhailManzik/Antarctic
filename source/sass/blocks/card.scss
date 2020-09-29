@@ -7,7 +7,8 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 35px 25px;
+  padding: 29px 25px;
+  padding-bottom: 26px;
   background-color: $color-dark-blue;
   color: $color-white;
   font-family: $main-font;
@@ -24,6 +25,14 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.card__caption-photo {
+  z-index: 1;
+  position: absolute;
+  left: 30px;
+  bottom: 26px;
+  font-size: 18px;
 }
 
 .card__img {
@@ -46,7 +55,7 @@
 
 .card__title {
   margin: 0;
-  margin-bottom: 25px;
+  margin-bottom: 14px;
   font-size: 18px;
   line-height: 150%;
   font-weight: 500;
@@ -54,11 +63,11 @@
 
 .card__parameter {
   margin: 0;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .card__caption {
-  margin-bottom: 10px;
+  margin-bottom: 3px;
   font-size: 14px;
   line-height: 140%;
 }
