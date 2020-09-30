@@ -36,12 +36,22 @@
 
 @media (max-width: $mobile-width) {
   .intro__wrapper {
+    padding-top: 133px;
+    padding-bottom: 179px;
     padding-left: 15px;
     padding-right: 15px;
   }
 
   .intro__title {
-    font-size: 35px;
+    margin-bottom: 14px;
+    font-size: 36px;
     line-height: 120%;
+  }
+
+  .intro__text {
+    margin: 0;
+    padding-right: 60px;
+    font-size: 16px;
+    line-height: 140%;
   }
 }

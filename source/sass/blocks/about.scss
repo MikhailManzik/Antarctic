@@ -43,11 +43,15 @@
 }
 
 @media (max-width: $tablet-width) {
+  .about__wrapper {
+    margin-left: 0;
+  }
+
   .about__question {
     margin-bottom: 40px;
   }
 
   .about__adress {
-    padding-right: 31px;
+    padding-right: 34px;
   }
 }
