@@ -29,4 +29,3 @@ buttonMenu.addEventListener('click', function () {
     siteNavigation.classList.add('main-nav--closed');
   }
 });
-
