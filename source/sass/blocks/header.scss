@@ -8,6 +8,12 @@
   align-items: center;
 }
 
+@media (max-width: $tablet-width) {
+  .header {
+    padding-top: 22px;
+  }
+}
+
 @media (max-width: $mobile-width) {
   .header {
     position: relative;

@@ -1,6 +1,6 @@
 .intro__wrapper {
-  padding: 210px 0;
-  padding-bottom: 283px;
+  padding-top: 196px;
+  padding-bottom: 278px;
   padding-left: 198px;
   font-family: $main-font;
   color: $color-white;
@@ -8,14 +8,29 @@
 
 .intro__title {
   margin: 0;
-  margin-bottom: 30px;
+  margin-bottom: 14px;
   font-size: 54px;
   font-weight: 700;
 }
 
+.intro__text {
+  margin: 0;
+  font-size: 20px;
+}
+
 @media (max-width: $tablet-width) {
   .intro__wrapper {
-    padding-left: 0;
+    padding-top: 210px;
+    padding-left: 46px;
+  }
+
+  .intro__title {
+    font-size: 50px;
+  }
+
+  .intro__text {
+    margin: 0;
+    font-size: 18px;
   }
 }
 
