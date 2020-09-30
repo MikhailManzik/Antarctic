@@ -25,6 +25,7 @@
   width: 100%;
   margin-bottom: 21px;
   padding: 12px;
+  padding-left: 15px;
   border: 1px solid transparent;
   font-family: $main-font;
   font-size: 14px;
@@ -47,11 +48,9 @@
   .form__block p {
     text-align: center;
     line-height: 140%;
-
   }
 
   .form__inputs input {
-
     &::placeholder {
       font-size: 14px;
     }

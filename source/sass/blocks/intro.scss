@@ -20,7 +20,17 @@
 
 @media (max-width: $tablet-width) {
   .intro__wrapper {
-    padding-left: 0;
+    padding-top: 210px;
+    padding-left: 46px;
+  }
+
+  .intro__title {
+    font-size: 50px;
+  }
+
+  .intro__text {
+    margin: 0;
+    font-size: 18px;
   }
 }
 

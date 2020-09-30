@@ -1,6 +1,10 @@
+.about__wrapper {
+  margin-left: 80px;
+}
+
 .about__question {
   margin: 0;
-  margin-bottom: 45px;
+  margin-bottom: 35px;
   font-size: 18px;
   font-weight: 500;
 }
@@ -8,8 +12,8 @@
 .about__adress {
   position: relative;
   margin: 0;
-  margin-bottom: 33px;
-  padding-left: 30px;
+  margin-bottom: 21px;
+  padding-left: 28px;
 
   &::before {
     content: "";
@@ -24,7 +28,7 @@
 .about__phone {
   position: relative;
   margin: 0;
-  padding-left: 30px;
+  padding-left: 28px;
   text-decoration: none;
   color: $color-black;
 
