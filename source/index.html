@@ -403,7 +403,7 @@
               <input type="text" name="name" placeholder="Валерия" minlength="2" maxlength="25" required>
               </label>
               <label>
-                <input id="phone" type="tel" name="phone" placeholder="89236889975" minlength="10" maxlength="13" required>
+                <input id="phone" type="tel" name="phone" pattern="[0-9]{10,}" title="89236889975" placeholder="89236889975" minlength="10" maxlength="13" required>
               </label>
               <label>
               <input type="email" name="mail" placeholder="grishaewa.lera@gmail.com" required>
@@ -411,7 +411,7 @@
             </div>
             <div class="order__checkbox checkbox">
               <label for="checkbox-personal-data">
-              <input type="checkbox" name="personal-data" value="checked" id="checkbox-personal-data" checked required>
+              <input type="checkbox" value="checked" id="checkbox-personal-data" checked required>
                 <span>Я согласен на обработку моих персональных данных</span>
               </label>
             </div>
