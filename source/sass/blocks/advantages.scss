@@ -203,11 +203,12 @@
   }
 
   .advantages__wrapper {
-    padding-top: 65px;
+    padding-top: 57px;
     padding-bottom: 65px;
   }
 
   .advantages__title {
+    margin-bottom: 30px;
     font-size: 24px;
   }
 
@@ -224,5 +225,21 @@
     &:last-child {
       margin-bottom: 0;
     }
+  }
+
+  .advantages__text {
+    padding-bottom: 24px;
+  }
+
+  .advantages__caption {
+    padding-right: 60px;
+  }
+
+  .advantages__desc--all-check {
+    padding-right: 32px;
+  }
+
+  .advantages__desc--boat {
+    padding-right: 10px;
   }
 }

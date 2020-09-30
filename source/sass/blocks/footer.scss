@@ -19,6 +19,21 @@
   margin-left: auto;
 }
 
+@media (max-width: $tablet-width) {
+  .footer__wrapper {
+    padding-top: 40px;
+  }
+
+  .footer__nav {
+    margin-left: 0;
+  }
+
+  .footer__social {
+    width: 110px;
+    margin-left: auto;
+  }
+}
+
 @media (max-width: $mobile-width) {
   .footer__wrapper {
     flex-direction: column;
@@ -29,7 +44,7 @@
   }
 
   .footer__nav {
-    margin-bottom: 30px;
+    margin-bottom: 13px;
   }
 
   .footer__social {

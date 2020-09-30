@@ -57,6 +57,10 @@
   font-weight: 500;
 }
 
+.card__parameters {
+  margin-bottom: 20px;
+}
+
 .card__parameter {
   margin: 0;
   margin-bottom: 12px;
@@ -80,6 +84,11 @@
   font-weight: 400;
 }
 
+.card__value--route {
+  overflow: hidden;
+  height: 38px;
+}
+
 .card__button {
   margin-top: auto;
 }
@@ -91,7 +100,24 @@
     padding-bottom: 35px;
   }
 
+  .card__caption-photo {
+    left: 35px;
+    bottom: 31px;
+}
+
   .card__parametrs {
     margin-bottom: 20px;
   }
+}
+
+@media (max-width: $mobile-width) {
+  .card__wrapper {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .card__caption-photo {
+    left: 25px;
+    bottom: 22px;
+}
 }

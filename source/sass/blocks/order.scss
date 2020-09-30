@@ -53,8 +53,8 @@
 
 @media (max-width: $tablet-width) {
   .order {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 88px;
+    padding-bottom: 99px;
     background-image: url("../img/bg-order-tablet@1x.jpg");
 
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
@@ -73,11 +73,11 @@
     align-items: center;
     width: 100%;
     margin-left: 0;
-    margin-bottom: 60px;
+    margin-bottom: 45px;
   }
 
   .order__title {
-    margin-bottom: 25px;
+    margin-bottom: 5px;
     font-size: 34px;
   }
 
@@ -93,7 +93,7 @@
 
 @media (max-width: $mobile-width) {
   .order {
-    padding-top: 65px;
+    padding-top: 59px;
     padding-bottom: 65px;
     background-image: url("../img/bg-order-mobile@1x.jpg");
 
@@ -103,11 +103,12 @@
   }
 
   .order__text {
-    margin-bottom: 40px;
+    margin-bottom: 26px;
     text-align: center;
   }
 
   .order__title {
+    margin-bottom: 14px;
     font-size: 24px;
     line-height: 130%;
   }
