@@ -1,5 +1,6 @@
 .header {
   padding-top: 35px;
+  padding-bottom: 35px;
 }
 
 .header__wrapper {
@@ -11,6 +12,7 @@
 @media (max-width: $tablet-width) {
   .header {
     padding-top: 22px;
+    padding-bottom: 22px;
   }
 }
 
@@ -19,6 +21,7 @@
     position: relative;
     flex-direction: column;
     padding-top: 10px;
+    padding-bottom: 10px;
   }
 
   .header__wrapper {

@@ -1,4 +1,1 @@
-<svg id="icon-menu-burger" viewBox="0 0 24 12" width="24" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 1h24M0 7h24M0 13h24" stroke="#F9FBFD" stroke-width="2"/>
-  <use xlink:href="#icon-menu-burger" width="24" height="12" x="0" y="0"></use>
-</svg>
-
+<svg width="24" height="14" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 1h24M0 7h24M0 13h24" stroke="#F9FBFD" stroke-width="2"/></svg>

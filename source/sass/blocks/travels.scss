@@ -1,6 +1,6 @@
 .travels {
-  margin-top: 111px;
-  margin-bottom: 90px;
+  padding-top: 111px;
+  padding-bottom: 90px;
 }
 
 .travels__wrapper {
@@ -47,8 +47,8 @@
 
 @media (max-width: $tablet-width) {
   .travels {
-    margin-top: 90px;
-    margin-bottom: 70px;
+    padding-top: 90px;
+    padding-bottom: 70px;
   }
 
   .travels__title {
@@ -58,8 +58,8 @@
 
 @media (max-width: $mobile-width) {
   .travels {
-    margin-top: 56px;
-    margin-bottom: 35px;
+    padding-top: 56px;
+    padding-bottom: 35px;
   }
 
   .travels__title {
