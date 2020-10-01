@@ -25,7 +25,7 @@
   font-family: $main-font;
 }
 
-.order__title {
+.order h2 {
   margin: 0;
   margin-bottom: 8px;
   font-size: 40px;
@@ -33,7 +33,7 @@
   line-height: 150%;
 }
 
-.order__desc {
+.order__text p {
   width: 350px;
   margin: 0;
   font-size: 18px;
@@ -76,15 +76,14 @@
     margin-bottom: 45px;
   }
 
-  .order__title {
+  .order h2 {
     margin-bottom: 5px;
     font-size: 34px;
   }
 
-  .order__desc {
+  .order__text p {
     text-align: center;
   }
-
 
   .order__form {
     margin-right: 0;
@@ -107,13 +106,13 @@
     text-align: center;
   }
 
-  .order__title {
+  .order h2 {
     margin-bottom: 14px;
     font-size: 24px;
     line-height: 130%;
   }
 
-  .order__desc {
+  .order__text p {
     width: 100%;
     font-size: 16px;
     line-height: 140%;
