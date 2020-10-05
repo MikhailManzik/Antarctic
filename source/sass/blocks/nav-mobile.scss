@@ -1,19 +1,20 @@
 @media (max-width: $mobile-width) {
   .nav-mobile {
+    position: absolute;
     width: 100vw;
     margin-top: -44px;
-    padding-top: 70px;
-    padding-bottom: 50px;
-    padding-left: 30px;
+    padding-top: 112px;
+    padding-bottom: 52px;
+    padding-left: 0;
     background-color: $color-white;
   }
 
   .nav-mobile--js {
-    position: absolute;
+    position: static;
     width: 100vw;
     margin-top: -44px;
     margin-left: -30px;
-    padding-top: 113px;
+    padding-top: 79px;
     padding-bottom: 52px;
     padding-left: 30px;
     background-color: $color-white;

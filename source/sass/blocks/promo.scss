@@ -13,14 +13,14 @@
   padding-right: 68px;
 }
 
-.promo__title {
+.promo__desc p:first-child {
   margin: 0;
   margin-bottom: 34px;
   font-size: 28px;
   font-weight: 600;
 }
 
-.promo__text {
+.promo__desc p:last-child {
   margin: 0;
 }
 
@@ -46,7 +46,7 @@
     margin-right: 30px;
   }
 
-  .promo__title {
+  .promo__desc p:first-child {
     margin-bottom: 16px;
     padding-right: 98px;
     font-size: 26px;
@@ -73,7 +73,7 @@
     padding-right: 0;
   }
 
-  .promo__title {
+  .promo__desc p:first-child {
     margin-right: 70px;
     margin-bottom: 17px;
     padding-right: 12px;

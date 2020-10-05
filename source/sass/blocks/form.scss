@@ -12,7 +12,7 @@
 
 .form__block p {
   margin: 0;
-  margin-bottom: 28px;
+  margin-bottom: 27px;
   font-family: $main-font;
   font-size: 18px;
   line-height: 150%;
@@ -29,10 +29,15 @@
   border: 1px solid transparent;
   font-family: $main-font;
   font-size: 14px;
+  outline: none;
 
   &::placeholder {
     font-size: 14px;
     color: $color-dark-blue;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 2px #3b99fc;
   }
 }
 

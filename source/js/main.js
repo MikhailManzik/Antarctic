@@ -7,7 +7,7 @@ var navigationMobile = document.querySelector('.nav-mobile');
 
 buttonMenu.classList.remove('toggle--hidden');
 logo.classList.remove('logo__img--fill-color');
-navigationMobile.classList.add('nav-mobile--js');
+navigationMobile.classList.remove('nav-mobile--js');
 
 buttonMenu.addEventListener('click', function () {
   if (buttonMenu.classList.contains('toggle--opened')) {

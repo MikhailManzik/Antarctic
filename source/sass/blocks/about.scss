@@ -1,15 +1,16 @@
 .about__wrapper {
   margin-left: 80px;
+  padding-top: 10px;
 }
 
-.about__question {
+.about__wrapper p:first-child {
   margin: 0;
-  margin-bottom: 35px;
+  margin-bottom: 36px;
   font-size: 18px;
   font-weight: 500;
 }
 
-.about__adress {
+.about__wrapper p:first-child + p {
   position: relative;
   margin: 0;
   margin-bottom: 21px;
@@ -27,7 +28,9 @@
 
 .about__phone {
   position: relative;
+  display: block;
   margin: 0;
+  padding-bottom: 10px;
   padding-left: 28px;
   text-decoration: none;
   color: $color-black;
@@ -47,11 +50,21 @@
     margin-left: 0;
   }
 
-  .about__question {
-    margin-bottom: 40px;
+  .about__wrapper p:first-child {
+    margin-bottom: 36px;
   }
 
-  .about__adress {
+  .about__wrapper p:last-child {
     padding-right: 34px;
+  }
+}
+
+@media (max-width: $mobile-width) {
+  .about__wrapper {
+    padding-top: 0;
+  }
+
+  .about__wrapper p:first-child {
+    margin-bottom: 40px;
   }
 }
