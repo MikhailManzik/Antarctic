@@ -39,6 +39,10 @@
   &:focus {
     box-shadow: 0 0 0 2px #3b99fc;
   }
+
+  &:focus:required:invalid {
+    box-shadow: 0 0 0 2px #ff8282;
+  }
 }
 
 @media (max-width: $mobile-width) {
