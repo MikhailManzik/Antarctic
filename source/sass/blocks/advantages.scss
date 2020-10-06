@@ -60,7 +60,9 @@
   &::before {
     width: 27px;
     height: 32px;
-    background-image: url("../img/icon-liner.svg");
+    background-image: url("../img/auto-sprite.svg#cloud-view") top left no-repeat;
+    background-position: top left;
+    background-repeat: no-repeat;
   }
 }
 

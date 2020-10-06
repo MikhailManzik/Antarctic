@@ -4,6 +4,10 @@ var buttonMenu = document.querySelector('.toggle');
 var siteNavigation = document.querySelector('.main-nav');
 var logo = document.querySelector('.logo__img');
 var navigationMobile = document.querySelector('.nav-mobile');
+var checkboxForm = document.querySelector('#checkbox-personal-data');
+var checkboxBlock = document.querySelector('.checkbox');
+var buttonSubmitForm = document.querySelector('.order__button');
+var checkboxLabel = checkboxBlock.querySelector('span');
 
 buttonMenu.classList.remove('toggle--hidden');
 logo.classList.remove('logo__img--fill-color');
@@ -29,3 +33,17 @@ buttonMenu.addEventListener('click', function () {
     siteNavigation.classList.add('main-nav--closed');
   }
 });
+
+var addColorChceckboxLabel = function () {
+  if (!checkboxForm.checked) {
+    checkboxLabel.style.color = 'red';
+  }
+};
+
+var removeColorChceckboxLabel = function () {
+  checkboxLabel.style.color = '#ffffff';
+};
+
+buttonSubmitForm.addEventListener('click', addColorChceckboxLabel);
+checkboxForm.addEventListener('input', removeColorChceckboxLabel);
+
