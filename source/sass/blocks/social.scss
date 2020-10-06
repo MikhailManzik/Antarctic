@@ -9,12 +9,21 @@
 }
 
 .social__item {
-  margin-left: 33px;
+  margin-left: 13px;
 }
 
 .social__link {
+  fill: $color-white;
   display: block;
-  padding: 10px 0;
+  padding: 10px;
+
+  &:hover {
+    fill: rgba(255, 255, 255, 0.7);
+  }
+
+  &:active {
+    fill: rgba(255, 255, 255, 0.5);
+  }
 }
 
 @media (max-width: $tablet-width) {
@@ -23,7 +32,7 @@
   }
 
   .social__item {
-    margin-left: 23px;
+    margin-left: 3px;
   }
 
   .social__icon--facebook {

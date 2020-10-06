@@ -23,8 +23,9 @@
 .form__inputs input {
   box-sizing: border-box;
   width: 100%;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
   padding: 12px;
+  padding-top: 13px;
   padding-left: 15px;
   border: 1px solid transparent;
   font-family: $main-font;
@@ -62,6 +63,9 @@
   }
 
   .form__inputs input {
+    margin-bottom: 19px;
+    padding-top: 14px;
+
     &::placeholder {
       font-size: 14px;
     }

@@ -1,13 +1,14 @@
 .about__wrapper {
   margin-left: 80px;
-  padding-top: 10px;
+  padding-top: 6px;
 }
 
 .about__wrapper p:first-child {
   margin: 0;
-  margin-bottom: 36px;
+  margin-bottom: 34px;
   font-size: 18px;
   font-weight: 500;
+  line-height: 150%;
 }
 
 .about__wrapper p:first-child + p {
@@ -19,6 +20,7 @@
   &::before {
     content: "";
     position: absolute;
+    top: 0;
     left: 0;
     width: 18px;
     height: 22px;
@@ -43,6 +45,10 @@
     height: 18px;
     background-image: url("../img/icon-phone.svg");
   }
+
+  &:hover {
+    text-decoration: underline;
+  }
 }
 
 @media (max-width: $tablet-width) {
@@ -51,11 +57,13 @@
   }
 
   .about__wrapper p:first-child {
-    margin-bottom: 36px;
+    margin-bottom: 27px;
   }
 
-  .about__wrapper p:last-child {
-    padding-right: 34px;
+  .about__wrapper p:first-child + p {
+    &::before {
+      top: 4px;
+    }
   }
 }
 
@@ -65,6 +73,6 @@
   }
 
   .about__wrapper p:first-child {
-    margin-bottom: 40px;
+    margin-bottom: 28px;
   }
 }
