@@ -1,5 +1,8 @@
+.about {
+  padding-left: 80px;
+}
+
 .about__wrapper {
-  margin-left: 80px;
   padding-top: 6px;
 }
 
@@ -16,16 +19,11 @@
   margin: 0;
   margin-bottom: 21px;
   padding-left: 28px;
+}
 
-  &::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 18px;
-    height: 22px;
-    background-image: url("../img/icon-pin.svg");
-  }
+.about__wrapper p:first-child + p svg {
+  position: absolute;
+  left: 0;
 }
 
 .about__phone {
@@ -37,21 +35,21 @@
   text-decoration: none;
   color: $color-black;
 
-  &::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 18px;
-    height: 18px;
-    background-image: url("../img/icon-phone.svg");
-  }
-
   &:hover {
     text-decoration: underline;
   }
 }
 
+.about__phone svg {
+  position: absolute;
+  left: 0;
+}
+
 @media (max-width: $tablet-width) {
+  .about {
+    padding-left: 0;
+  }
+
   .about__wrapper {
     margin-left: 0;
   }
@@ -60,10 +58,12 @@
     margin-bottom: 27px;
   }
 
-  .about__wrapper p:first-child + p {
-    &::before {
-      top: 4px;
-    }
+  .about__wrapper p:first-child + p svg {
+    top: 5px;
+  }
+
+  .about__phone svg {
+    top: 2px;
   }
 }
 

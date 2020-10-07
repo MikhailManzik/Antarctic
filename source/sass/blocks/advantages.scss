@@ -56,32 +56,21 @@
   }
 }
 
-.advantages__item--liner {
-  &::before {
-    width: 27px;
-    height: 32px;
-    background-image: url("../img/icon-liner.svg");
-    background-position: top left;
-    background-repeat: no-repeat;
-  }
+.advantages__icon {
+  position: absolute;
+  left: 30px;
 }
 
-.advantages__item--all-check {
-  &::before {
-    top: 33px;
-    width: 38px;
-    height: 21px;
-    background-image: url("../img/icon-all-check.svg");
-  }
+.advantages__icon--liner {
+  top: 30px;
 }
 
-.advantages__item--boat {
-  &::before {
-    top: 37px;
-    width: 42px;
-    height: 15px;
-    background-image: url("../img/icon-boat.svg");
-  }
+.advantages__icon--all-check {
+  top: 34px;
+}
+
+.advantages__icon--boat {
+  top: 37px;
 }
 
 .advantages__text {
@@ -137,27 +126,25 @@
     }
   }
 
-  .advantages__item--liner {
-    &::before {
-      width: 21px;
-      height: 26px;
-    }
+  .advantages__icon--liner {
+    top: 24px;
+    left: 20px;
+    width: 21px;
+    height: 26px;
   }
 
-  .advantages__item--all-check {
-    &::before {
-      top: 30px;
-      width: 33px;
-      height: 19px;
-    }
+  .advantages__icon--all-check {
+    top: 28px;
+    left: 20px;
+    width: 33px;
+    height: 19px;
   }
 
-  .advantages__item--boat {
-    &::before {
-      top: 32px;
-      width: 38px;
-      height: 13px;
-    }
+  .advantages__icon--boat {
+    top: 31px;
+    left: 20px;
+    width: 38px;
+    height: 13px;
   }
 
   .advantages__text {

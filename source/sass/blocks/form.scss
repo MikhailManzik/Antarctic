@@ -1,13 +1,14 @@
 .form {
+  box-sizing: border-box;
   width: 403px;
+  padding: 50px;
+  padding-top: 44px;
   background-color: $color-dark-blue;
 }
 
 .form__block {
   display: flex;
   flex-direction: column;
-  margin: 50px;
-  margin-top: 44px;
 }
 
 .form__block p:first-child {
@@ -49,12 +50,9 @@
 @media (max-width: $mobile-width) {
   .form {
     width: 100%;
-  }
-
-  .form__block {
-    margin: 30px;
-    margin-top: 35px;
-    margin-bottom: 40px;
+    padding: 30px;
+    padding-top: 35px;
+    padding-bottom: 40px;
   }
 
   .form__block p:first-child {

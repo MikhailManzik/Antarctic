@@ -15,12 +15,13 @@
 .order__wrapper {
   display: flex;
   justify-content: space-between;
+  padding-left: 163px;
+  padding-right: 163px;
 }
 
 .order__text {
   align-self: center;
   width: 50%;
-  margin-left: 60px;
   padding-bottom: 8px;
   font-family: $main-font;
 }
@@ -42,7 +43,6 @@
 
 .order__form {
   width: 50%;
-  margin-right: 60px;
 }
 
 .order__button {
@@ -99,6 +99,11 @@
     @media (min-resolution: $retina-dpi), (min-resolution: $retina-dppx) {
       background-image: url("../img/bg-order-mobile@2x.jpg");
     }
+  }
+
+  .order__wrapper {
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .order__text {

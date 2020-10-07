@@ -6,6 +6,7 @@
 }
 
 .contacts__map {
+  flex-shrink: 0;
   width: 50%;
 }
 
@@ -17,6 +18,7 @@
 
 @media (max-width: $tablet-width) {
   .contacts__map {
+    flex-shrink: 1;
     margin-right: 30px;
   }
 

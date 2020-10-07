@@ -31,6 +31,16 @@
     width: 110px;
   }
 
+  .social__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    width: 110px;
+    margin: 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
   .social__item {
     margin-left: 3px;
   }

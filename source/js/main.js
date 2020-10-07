@@ -14,13 +14,11 @@ logo.classList.remove('logo__img--fill-color');
 navigationMobile.classList.remove('nav-mobile--js');
 
 buttonMenu.addEventListener('click', function () {
-  if (buttonMenu.classList.contains('toggle--opened')) {
-    buttonMenu.classList.remove('toggle--opened');
-    buttonMenu.classList.add('toggle--closed');
+  if (buttonMenu.classList.contains('toggle--close-icon')) {
+    buttonMenu.classList.remove('toggle--close-icon');
     logo.classList.remove('logo__img--fill-color');
   } else {
-    buttonMenu.classList.remove('toggle--closed');
-    buttonMenu.classList.add('toggle--opened');
+    buttonMenu.classList.add('toggle--close-icon');
     logo.classList.add('logo__img--fill-color');
   }
 });
@@ -46,4 +44,3 @@ var removeColorChceckboxLabel = function () {
 
 buttonSubmitForm.addEventListener('click', addColorChceckboxLabel);
 checkboxForm.addEventListener('input', removeColorChceckboxLabel);
-
