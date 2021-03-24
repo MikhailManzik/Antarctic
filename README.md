@@ -1,6 +1,6 @@
 # Антарктика
 
-![Image of project «Antarctic»](https://github.com/MikhailManzik/antarctic/antarctic.jpg)
+![Image of project «Antarctic»](https://github.com/MikhailManzik/antarctic/blob/master/antarctic.jpg)
 
 Лендинг компании, специализирующейся на морских круизах в Антарктику.
 
